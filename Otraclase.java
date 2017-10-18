@@ -5,4 +5,9 @@ package com.example.normagarcia.borrar;
  */
 
 public class Otraclase {
+
+    @Override
+    public String toString() {
+        return "Otraclase{}";
+    }
 }

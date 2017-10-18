@@ -14,4 +14,13 @@ public class MainActivity extends AppCompatActivity {
     public MainActivity() {
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
 }
